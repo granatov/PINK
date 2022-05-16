@@ -1616,3 +1616,12 @@
     opacity: 1;
   }
 }
+
+
+@media (orientation: landscape) {
+  .top_menu_list {
+
+    height: 100%;
+
+  }
+}
