@@ -1,0 +1,192 @@
+.photo_library {
+  margin-bottom: 20px;
+}
+
+.photo_library_panorama_content {
+  background: url(template/panorama-mobile.png) 50% 50%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 137px;
+  background-size: cover;
+}
+.photo_library_panorama_content::after {
+  content: "ПАНОРАМА ДНЯ";
+  display: block;
+  width: 140px;
+  height: 36px;
+  background: #d22856;
+  color: white;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 5px;
+  position: relative;
+  left: -19px;
+  margin-left: auto;
+}
+
+.photo_library_text {
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.photo_library_text_wrapper {
+  background: #f2f2f2;
+  padding-left: 17px;
+}
+.photo_library_text_top {
+  display: flex;
+  padding-top: 18px;
+
+  gap: 3px;
+}
+.photo_library_text_name {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+}
+.photo_library_text_time {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+  align-items: center;
+  text-transform: uppercase;
+  color: #283645;
+}
+.photo_library_text_content {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #283645;
+  margin: 0;
+}
+.photo_library_likes {
+  display: flex;
+  padding-top: 12px;
+  gap: 19px;
+  padding-bottom: 18px;
+}
+.photo_library_likes_text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  align-items: center;
+  text-align: right;
+  text-transform: uppercase;
+  color: #d22856;
+}
+
+.other_photos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.other_photos_wrapper {
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+}
+
+.photo_1::after {
+  background-image: url(template/photo-1-desktop.png);
+  display: block;
+  width: 280px;
+  height: 180px;
+  content: "";
+  background-position: center;
+}
+.photo_2::after {
+  background-image: url(template/photo-2-desktop.png);
+  display: block;
+  width: 280px;
+  height: 180px;
+  content: "";
+  background-position: center;
+}
+.photo_3::after {
+  background-image: url(template/photo-3-desktop.png);
+  display: block;
+  width: 280px;
+  height: 180px;
+  content: "";
+  background-position: center;
+}
+.photo_4::after {
+  background-image: url(template/photo-4-desktop.png);
+  display: block;
+  width: 280px;
+  height: 180px;
+  content: "";
+  background-position: center;
+}
+.photo_5:after {
+  background-image: url(template/photo-5-desktop.png);
+  display: block;
+  width: 280px;
+  height: 180px;
+  content: "";
+  background-position: center;
+}
+.photo_6::after {
+  background-image: url(template/photo-6-desktop.png);
+  display: block;
+  width: 280px;
+  height: 180px;
+  content: "";
+  background-position: center;
+}
+.other_photos_text {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 17px;
+  padding-top: 18px;
+}
+.other_photos_content {
+  text-align: center;
+}
+
+.other_photos_text_bottom {
+  display: flex;
+  padding-top: 10px;
+  gap: 18px;
+  padding-bottom: 18px;
+}
+
+.other_photo_bottom_text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+  padding: 35px 35px 28px 35px;
+  margin: 0 auto;
+}
+.other_photos_item {
+  background: #f2f2f2;
+  width: 280px;
+}

@@ -1,0 +1,33 @@
+.feedback {
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.feedback_quotes {
+  order: -2;
+  margin-top: 28px;
+}
+
+.feedback_block {
+  flex-wrap: wrap;
+  margin-top: 41px;
+}
+
+.feedback_name {
+  margin: 0 auto;
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.feedback_text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 13px;
+  padding: 0 20px;
+}

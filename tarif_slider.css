@@ -1,0 +1,52 @@
+/* Ограничивающая оболочка */
+.tarif_slider .slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.tarif_slider .slick-track {
+  display: flex;
+}
+/* Слайд */
+.tarif_slider .slick-slide {
+  margin: 0;
+  opacity: 0.5;
+}
+
+/* Слайд по центру */
+.tarif_slider .slick-slide.slick-center {
+  opacity: 1;
+  transition: 0.7s;
+}
+
+/* Точки (булиты) */
+.tarif_slider .slick-dots {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  margin-top: 38px;
+  margin-bottom: 48px;
+}
+.tarif_slider .slick-dots li {
+  list-style: none;
+}
+/* Активная точка */
+.tarif_slider .slick-dots li.slick-active button {
+  border: 3px solid #283645;
+  background-color: transparent;
+  width: 9px;
+  height: 9px;
+  opacity: 1;
+}
+/* Элемент точки */
+.tarif_slider .slick-dots li button {
+  font-size: 0;
+  width: 6px;
+  height: 6px;
+  padding: 0px;
+  background: #283645;
+  opacity: 0.3;
+  border-radius: 50%;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.mega_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 320px;
+  justify-content: center;
+  margin: 0px;
+  box-sizing: content-box;
+  margin-bottom: 70px;
+}
+
+.text1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 121%;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.text2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 121%;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+  margin-top: 29px;
+}

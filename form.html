@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="form_header.css" />
+    <link rel="stylesheet" href="checkbox.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="media.css" />
+    <title>Конкурс</title>
+  </head>
+  <body>
+    <div class="first_page first_page_catalog">
+      <header class="header">
+        <div class="top_icons">
+          <a class="top_logo_pink_link" href="index.html"></a>
+          <ul class="top_menu_list">
+            <li class="top_menu_item ">
+              <a href="index.html">Главная</a>
+            </li>
+            <li class="top_menu_item">
+              <a href="catalog.html">Фотографии</a>
+            </li>
+            <li class="top_menu_item active_link" ><a href="form.html">Конкурс</a></li>
+            <li class="top_menu_item">
+              <a href="https://htmlacademy.ru/" target="_blank">HTML Academy</a>
+            </li>
+          </ul>
+          <div class="header_burger">
+            <span></span>
+          </div>
+        </div>
+      </header>
+      <div class="catalog_title">
+        <h1 class="catalog_title_text title_text_form">
+          Конкурс на самое безбашенное путешествие с Пинк
+        </h1>
+      </div>
+      <div class="white_block">
+        <p class="white_block_text">
+          Поделитесь своей историей и получите шанс выиграть ценный приз — 1000
+          миль на вашу бонусную карту!<span class="text_add_tablet">
+            Пожалуйста, заполните форму ниже:</span
+          >
+        </p>
+      </div>
+    </div>
+    <main class="main">
+      <div class="user_name_form">
+        <div class="user_name_wrapper">
+          <div class="form_name1">
+            <p class="name_title">ФАМИЛИЯ:</p>
+            <input
+              class="name_form_input"
+              type="text"
+              placeholder="Укажите фамилию *"
+            />
+          </div>
+          <div class="form_name2">
+            <p class="name_title">ИМЯ:</p>
+            <input
+              class="name_form_input"
+              type="text"
+              placeholder="Введите ваше имя *"
+            />
+          </div>
+          <div class="form_name3">
+            <p class="name_title">ОТЧЕСТВО:</p>
+            <input
+              class="name_form_input"
+              type="text"
+              placeholder="Ну и отчество тоже"
+            />
+          </div>
+        </div>
+      </div>
+      <section class="form_checkbox">
+        <h3 class="checkbox_title">
+          Ваши безбашенные достижения в путешествии
+        </h3>
+        <div class="checkbox_wrapper">
+          <div class="checkbox_content">
+            <label class="content_input">
+              <input
+                type="checkbox"
+                name="name"
+                value="Сделал селфи с акулой"
+              /><span class="custome_input"></span>Сделал селфи с акулой
+            </label>
+            <label class="content_input">
+              <input
+                type="checkbox"
+                name="name"
+                value="Обгорел на пляже"
+              /><span class="custome_input"></span>Обгорел на пляже
+            </label>
+            <label class="content_input">
+              <input
+                type="checkbox"
+                name="name"
+                value="Видел Чака Норриса"
+              /><span class="custome_input"></span>Видел Чака Норриса
+            </label>
+            <label class="content_input">
+              <input
+                type="checkbox"
+                name="name"
+                value="Накупил сувениров"
+              /><span class="custome_input"></span>Накупил сувениров
+            </label>
+            <label class="content_input">
+              <input type="checkbox" name="name" value="Удержал башню" /><span
+                class="custome_input"
+              ></span
+              >Удержал башню
+            </label>
+            <label class="content_input">
+              <input type="checkbox" name="name" value="Разгромил отель" /><span
+                class="custome_input"
+              ></span
+              >Разгромил отель
+            </label>
+          </div>
+        </div>
+      </section>
+      <div class="user_contacts">
+        <div class="user_contacts_wrapper">
+          <div class="user_phone">
+            <p class="contacts_title_form">НОМЕР ТЕЛЕФОНА</p>
+            <div class="contacts_input_tools">
+              <input type="tel" placeholder="Номер, пожалуйста" />
+              <button class="user_contact_button phone_btn"></button>
+            </div>
+          </div>
+          <div class="user_mail">
+            <p class="contacts_title_form">АДРЕС ПОЧТЫ</p>
+            <div class="contacts_input_tools">
+              <input type="email" placeholder="Введите почту *" />
+              <button class="user_contact_button mail_btn"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="radio_os">
+        <p class="radio_os_title">С каким приложением путешествовали?</p>
+        <div class="radio_os_wrapper">
+          <div class="radio_os_content">
+            <label class="radio_os_item">
+              <input type="radio" name="os" value="IOS" checked /><span
+                class="custom_radio"
+              ></span
+              >Pink для iOS
+            </label>
+            <label class="radio_os_item">
+              <input type="radio" name="os" value="Android" /><span
+                class="custom_radio"
+              ></span
+              >Pink на Android
+            </label>
+            <label class="radio_os_item">
+              <input type="radio" name="os" value="Windows" /><span
+                class="custom_radio"
+              ></span
+              >Windows Phone
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="comment">
+        <div class="comment_wrapper">
+          <p class="comment_title">ОПИШИТЕ СВОИ ЭМОЦИИ</p>
+          <div class="comment_area">
+            <textarea
+              placeholder="Можно прям в красках, нe стесняясь в выражениях"
+            ></textarea>
+          </div>
+          <div class="comment_bottom">
+            <button class="comment_btn"><span>Отправить форму</span></button>
+            <p class="comment_down_text">
+              *<span>
+                — обязательные<span class="comment_down_text_add">
+                  для заполнения</span
+                >
+                поля</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer_wrapper">
+        <div class="footer_glases_pink">
+          <a class="footer_glases_link" href="index.html"></a>
+        </div>
+        <div class="footer_circle_logo">
+          <a
+            href="https://twitter.com/"
+            class="footer_icon icon_tweeter"
+            target="_blank"
+            >twitter</a
+          >
+          <a
+            href="https://www.facebook.com/"
+            class="footer_icon icon_facebook"
+            target="_blank"
+            >facebook</a
+          >
+          <a
+            href="https://www.youtube.com/"
+            class="footer_icon icon_youtube"
+            target="_blank"
+            >youtube</a
+          >
+        </div>
+        <div class="footer_down">
+          <h3 class="footer_cop">Разработано</h3>
+          <a
+            class="footer_html_link"
+            href="https://htmlacademy.ru/"
+            target="_blank"
+            ><svg
+              width="27"
+              height="34"
+              viewBox="0 0 27 34"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.6426 0.0157537L13.5 0L0 1.40733V26.0129L13.5 34L27 26.0129V1.40733L13.6426 0.0157537ZM25.2344 25.0151L13.5 31.9573L1.76561 25.0151V14.9293L13.4507 21.8451L13.4701 23.0984L5.45351 18.3548L5.44295 19.5801L13.4894 24.3885L13.5088 25.675L5.46408 20.9174L5.45351 22.1427L13.5 26.9511L21.6239 22.1182V20.8929V16.909L25.2432 14.7595L25.2344 25.0151ZM25.2344 13.4519L22.0147 15.3319L20.5325 16.2071L13.4666 12.0201L13.456 13.2454L19.4957 16.818L19.4429 16.8495L19.3126 16.9247L18.4536 17.4166L13.4666 14.4689L13.456 15.6942L17.3921 18.0222L16.4591 18.6314L16.438 18.6436L13.4666 16.902L13.456 18.1273L15.4029 19.2615L13.4155 20.4483L1.7973 13.5762L13.4349 6.61831L25.2344 13.4519ZM25.2344 12.2266L13.4401 5.31075L1.76561 12.2196V2.9897L13.5 1.76442L25.2344 2.9897V12.2266Z"
+                fill="#D22856"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
