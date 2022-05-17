@@ -335,7 +335,7 @@
     gap: 19px;
   }
 
-  .user_contacts {
+  .user_address {
     order: -3;
     width: 100%;
     border: 2px solid #e5e5e5;
@@ -344,7 +344,7 @@
     height: 158px;
     padding-top: 27px;
   }
-  .user_contacts::before {
+  .user_address::before {
     content: "контактная информация";
     display: inline-block;
     position: relative;
@@ -358,7 +358,7 @@
     background-color: #fff;
     padding: 0 10px;
   }
-  .user_contacts_wrapper {
+  .user_address_wrapper {
     max-width: 940px;
     flex-direction: row;
     justify-content: space-between;
@@ -376,7 +376,7 @@
     border: none;
   }
 
-  .contacts_title_form {
+  .address_title_form {
     margin-left: 1px;
   }
   .phone_btn::after {
@@ -398,11 +398,11 @@
     display: block;
     margin: 0 auto;
   }
-  .contacts_input_tools {
+  .address_input_tools {
     display: flex;
     width: 371px;
   }
-  .contacts_input_tools input {
+  .address_input_tools input {
     width: 100%;
   }
 
@@ -713,11 +713,11 @@
     justify-content: flex-start;
   }
 
-  .contacts {
+  .address {
     flex-direction: column;
     gap: 11px;
   }
-  .contacts_wrapper {
+  .address_wrapper {
     width: 881px;
     display: flex;
     flex-wrap: wrap;
@@ -728,10 +728,10 @@
     gap: 95px;
     justify-content: space-between;
   }
-  .contacts_content {
+  .address_content {
     margin-left: 17px;
   }
-  .contacts_content3 {
+  .address_content3 {
     margin-left: 15px;
   }
 
@@ -741,19 +741,19 @@
     margin-top: 59px;
     margin-bottom: 29px;
   }
-  .contacts_title {
+  .address_title {
     margin: 0 auto;
     margin-bottom: 20px;
     margin-left: 18px;
   }
-  .contacts_write {
+  .address_write {
     order: 1;
   }
-  .contacts_title2 {
+  .address_title2 {
     margin: 0 auto;
     margin-bottom: 20px;
   }
-  .contacts_title3 {
+  .address_title3 {
     margin: 0 auto;
     margin-bottom: 20px;
     margin-left: 17px;
@@ -1094,10 +1094,10 @@
     padding: 20px;
     margin: 0 auto;
   }
-  .user_contacts {
+  .user_address {
     order: -3;
   }
-  .user_contacts_wrapper {
+  .user_address_wrapper {
     max-width: 616px;
   }
 
@@ -1112,7 +1112,7 @@
     height: 59px;
     border: none;
   }
-  .contacts_title_form {
+  .address_title_form {
     margin-left: 1px;
   }
   .phone_btn::after {
@@ -1134,10 +1134,10 @@
     display: block;
     margin: 0 auto;
   }
-  .contacts_input_tools {
+  .address_input_tools {
     display: flex;
   }
-  .contacts_input_tools input {
+  .address_input_tools input {
     width: 100%;
   }
 
@@ -1296,11 +1296,11 @@
     margin-bottom: 4px;
   }
 
-  .contacts {
+  .address {
     flex-direction: column;
     gap: 11px;
   }
-  .contacts_wrapper {
+  .address_wrapper {
     width: 660px;
     display: flex;
     flex-wrap: wrap;
@@ -1318,13 +1318,13 @@
     min-width: 660px;
     margin-bottom: 25px;
   }
-  .contacts_title {
+  .address_title {
     margin: 0 auto;
   }
-  .contacts_title2 {
+  .address_title2 {
     margin: 0 auto;
   }
-  .contacts_title3 {
+  .address_title3 {
     margin-top: 33px;
   }
   .tarif {
@@ -1445,7 +1445,7 @@
     background-color: #1d2631;
     margin: 0;
     z-index: 5;
-    padding: 100px 20px 10px 20px;
+    padding: 79px 20px 0px 20px;
   }
 
   .top_menu_list.active {
@@ -1477,7 +1477,7 @@
 
   .top_logo_pink_link:hover {
     background-image: url(template/pink_mobile_hover.svg);
-    transition: 0.3s;
+
   }
   .top_menu_item {
     margin-bottom: 30px;

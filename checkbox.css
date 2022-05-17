@@ -73,12 +73,12 @@ main {
   margin: 0;
 }
 
-.user_contacts {
+.user_address {
   padding: 22px;
   margin-top: 10px;
   margin-bottom: 22px;
 }
-.user_contacts_wrapper {
+.user_address_wrapper {
   display: flex;
   flex-direction: column;
   gap: 19px;
@@ -86,7 +86,7 @@ main {
   max-width: 276px;
 }
 
-.contacts_title_form {
+.address_title_form {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -100,7 +100,7 @@ main {
   margin-bottom: 7px;
 }
 
-.user_contacts input {
+.user_address input {
   width: 276px;
   height: 59px;
   border: 2px solid #e5e5e5;

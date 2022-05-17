@@ -1,0 +1,145 @@
+.address {
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.address_wrapper {
+  z-index: 2;
+  text-align: center;
+  position: relative;
+}
+
+.question {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 120%;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+  margin-top: 42px;
+}
+
+.address_title {
+  margin: 0px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+  margin-top: 10px;
+}
+
+.address_content {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  text-align: center;
+  color: #d22856;
+  margin: 0;
+}
+
+.address_title2 {
+  margin: 0px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+  margin-top: 16px;
+}
+
+.address_content2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  text-align: center;
+  color: #d22856;
+  margin: 0;
+  transition: 0.3s;
+}
+
+.address_title3 {
+  margin: 0px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  color: #283645;
+  margin-top: 22px;
+  transition: 0.3s;
+}
+
+.address_content3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  text-align: center;
+  color: #d22856;
+  margin: 0;
+  transition: 0.3s;
+}
+.triangle_map {
+  width: 100%;
+  position: absolute;
+  max-width: 1200px;
+  top: -1px;
+}
+.map_pic {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 200px;
+  max-height: 500px;
+}
+.contatcs_map_pic {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.address_content:hover {
+  text-decoration-line: underline;
+  color: #283645;
+
+}
+.address_content2:hover {
+  text-decoration-line: underline;
+  color: #283645;
+
+}
+.address_content3:hover {
+  text-decoration-line: underline;
+  color: #283645;
+
+}
+.address_content:active {
+  opacity: 0.3;
+}
+.address_content2:active {
+  opacity: 0.3;
+}
+.address_content3:active {
+  opacity: 0.3;
+}
