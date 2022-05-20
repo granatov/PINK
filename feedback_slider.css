@@ -60,6 +60,7 @@
   z-index: 2;
   top: 30%;
   font-size: 0;
+  cursor: pointer;
 }
 /* Стрелка влево */
 .feedback_slider .slick-arrow.slick-prev {
